@@ -1,0 +1,165 @@
+@charset "UTF-8";
+* {
+  font-family: 微軟正黑體;
+  letter-spacing: 2px;
+}
+
+body {
+  height: auto;
+}
+
+a {
+  color: unset;
+}
+a a:link {
+  text-decoration: none;
+  color: #000;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: bold;
+}
+
+section {
+  padding: 50px 0px;
+}
+
+nav {
+  transition-duration: 0.5s;
+  color: white;
+}
+nav a {
+  font-size: 20px;
+  color: white;
+}
+nav a:hover {
+  color: #67EB6A;
+}
+
+header.jumbotron {
+  margin-bottom: 0px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+header.jumbotron hr {
+  max-width: 80px;
+  border: 2px solid #67EB6A;
+}
+header.jumbotron .container {
+  padding: 200px 0px;
+}
+header.jumbotron .btn {
+  margin-top: 20px;
+  border-radius: 20px;
+  font-size: 20px;
+}
+header.jumbotron img {
+  width: 150px;
+  position: absolute;
+  bottom: 0px;
+}
+header.jumbotron img.svg {
+  width: 600px;
+  z-index: -1;
+  left: -200px;
+  bottom: -40px;
+}
+header.jumbotron .img1 {
+  left: 494px;
+}
+header.jumbotron .img2 {
+  width: 650px;
+  z-index: -1;
+  right: -200px;
+  bottom: -90px;
+}
+
+section#section_intro {
+  background-color: #C5F660;
+}
+section#section_intro .col-sm-5.img_intro {
+  background-image: url(https://pic2.zhimg.com/v2-54d0dd9e07c04a449842c379aa17a3c8_1440w.jpg?source=172ae18b);
+  height: 480px;
+  background-size: cover;
+  background-position: center center;
+}
+section#section_intro .col-sm-7 {
+  margin-top: 150px;
+  padding: 20px 40px;
+}
+
+section#section_about p {
+  font-weight: 700;
+}
+section#section_about h3 {
+  margin-top: 15px;
+}
+section#section_about img {
+  width: 150%;
+}
+section#section_about .img_story {
+  height: 200px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center center;
+}
+section#section_about .is1 {
+  background-image: url(https://tk.ismcdn.jp/mwimgs/5/6/1140/img_5620986e8d74348928d5d4cf5ffcf5a3208927.jpg);
+}
+section#section_about .is2 {
+  background-image: url(https://www.boj.or.jp/pickupnewsimages/pn12200721jp.jpg);
+}
+section#section_about .is3 {
+  background-image: url(https://www.smbc-card.com/cashless/hojin/img/information_bank.jpg);
+}
+
+section#section_map {
+  overflow: hidden;
+  background-color: #222;
+  color: white;
+}
+section#section_map .col-sm-5.map {
+  background-image: url(https://static.activo.jp/uploads/skyscraper-3184798_1920.jpg);
+  background-position: center right;
+  background-size: cover;
+  width: 100%;
+}
+section#section_map .col-sm-7 {
+  text-align: center;
+}
+section#section_map .col-sm-7 .icon hr {
+  border: 2px solid #67EB6A;
+}
+section#section_map .col-sm-7 .icon h4 {
+  margin-top: 10px;
+}
+section#section_map .col-sm-7 .icon i {
+  font-size: 30px;
+}
+
+footer.jumbotron {
+  color: black;
+  margin-bottom: 0px;
+  text-align: center;
+  background-color: #C5F660;
+}
+footer.jumbotron hr {
+  max-width: 80px;
+  border: 2px solid #67EB6A;
+}
+footer.jumbotron .container {
+  padding: 80px 0px;
+}
+footer.jumbotron input {
+  margin-top: 80px;
+  max-width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: transparent;
+}
+
+.btn {
+  border-radius: 20px;
+  font-size: 20px;
+}

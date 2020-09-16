@@ -1,0 +1,125 @@
+@charset "UTF-8";
+* {
+    font-family: 微軟正黑體;
+    letter-spacing: 2px;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-weight: bold;
+}
+
+section {
+    padding: 50px 0px;
+}
+
+nav {
+    transition-duration: 0.5s;
+    color: white;
+}
+nav a {
+    font-size: 20px;
+    color: white;
+}
+nav a:hover {
+    color: #67EB6A;
+}
+
+.btn {
+    border-radius: 20px;
+}
+
+header.jumbotron {
+    margin-bottom: 0px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+header.jumbotron hr {
+    max-width: 80px;
+    border: 2px solid #67EB6A;
+}
+header.jumbotron .container {
+    padding: 200px 0px;
+}
+header.jumbotron .btn {
+    margin-top: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+header.jumbotron img {
+    width: 150px;
+    position: absolute;
+    bottom: 0px;
+}
+header.jumbotron img.svg {
+    width: 600px;
+    z-index: -1;
+    left: -200px;
+    bottom: -40px;
+}
+header.jumbotron .img1 {
+    left: 494px;
+}
+header.jumbotron .img2 {
+    width: 650px;
+    z-index: -1;
+    right: -200px;
+    bottom: -90px;
+}
+
+section#section_intro {
+    background-color: #C5F660;
+    text-align: center;
+    padding: 200px;
+    font-size: 24px;
+}
+section#section_intro a {
+    background-color: #eee;
+}
+section#section_intro .active {
+    background-color: #C5F660;
+    border: 0px;
+    color: white;
+}
+section#section_intro #list-tab.list-group {
+    transition: 0.2s;
+}
+section#section_intro p {
+    color: black;
+    text-align: left;
+    padding: 50px;
+}
+section#section_intro i {
+    color: black;
+    font-size: 50px;
+}
+
+footer.jumbotron {
+    color: black;
+    margin-bottom: 0px;
+    text-align: center;
+    background-color: #eee;
+}
+footer.jumbotron hr {
+    max-width: 80px;
+    border: 2px solid #67EB6A;
+}
+footer.jumbotron .container {
+    padding: 80px 0px;
+}
+footer.jumbotron .btn {
+    font-size: 20px;
+}
+
+a {
+    color: unset;
+}
+a a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a a:hover {
+    text-decoration: none;
+    color: white;
+}
